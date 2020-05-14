@@ -11,4 +11,4 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.h2.console.path=/h2
 logging.file.name=c:/temp/application.log
 logging.level.org.springframework=ERROR 
-logging.level.com.currency=DEBUG
+logging.level.com.skumar=DEBUG

@@ -11,7 +11,7 @@ public class ConversionFactorController {
 	@GetMapping(path = "/conversionfactor/{currency}")
 	public ConversionFactor getCurrencyConversionFactor(@PathVariable String currency)
 	{
-		ConversionFactor conversionFactor  = new ConversionFactor(new Long(1), "USD", "USA", 5.0);
+		ConversionFactor conversionFactor  = new ConversionFactor(new Long(1), "USD", "USA", 7);
 		
 		return conversionFactor;
 	}

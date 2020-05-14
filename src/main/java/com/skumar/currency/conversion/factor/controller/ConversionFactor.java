@@ -5,14 +5,14 @@ public class ConversionFactor {
 	private Long id;
 	private String currency;
 	private String country;	
-	private Double conversionFactor;
+	private Integer conversionFactor;
 	
 	public ConversionFactor() {
 		super();
 	}
 
 
-	public ConversionFactor(Long id, String currency, String country, Double conversionFactor) {
+	public ConversionFactor(Long id, String currency, String country, Integer conversionFactor) {
 		super();
 		this.id = id;
 		this.currency = currency;
@@ -38,10 +38,10 @@ public class ConversionFactor {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	public Double getConversionFactor() {
+	public Integer getConversionFactor() {
 		return conversionFactor;
 	}
-	public void setConversionFactor(Double conversionFactor) {
+	public void setConversionFactor(Integer conversionFactor) {
 		this.conversionFactor = conversionFactor;
 	}
 	
